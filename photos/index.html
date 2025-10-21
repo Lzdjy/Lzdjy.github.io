@@ -320,6 +320,22 @@
   
 
   
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: "http://lzdjy.github.io/photos/index.html",
+  owner: 'Lzdjy',
+  repo: 'https://github.com/Lzdjy/comment-data.git',
+  oauth: {
+    client_id: 'Ov23liHVksnuXQHTVJbS',
+    client_secret: '68b55ba07008287db423842c26e548d249e3160d',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
+  
 
 
           </div>
